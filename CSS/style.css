@@ -8,6 +8,10 @@
     padding: 1%;
 }
 
+header {
+    background-color: #F1F1EA;
+}
+
 nav {
     width: 73%;
     padding: 1%;
@@ -16,6 +20,10 @@ nav {
 ul {
     width: 50%;
     margin-left:auto;
+    font-family: "Epilogue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .logo {
@@ -27,9 +35,18 @@ ul {
     padding: 25px;
 }
 
+section {
+    background-color: #4B755F;
+}
+
 .content {
     width: 500px;
     margin: 0 auto;
+    color: #F1F1EA;
+    font-family: "Epilogue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 footer {
@@ -42,4 +59,14 @@ ul {
 
 li {
     padding: 2px;
+}
+
+button {
+    height: 20px;
+    background-color:#F1F1EA;
+    color: #373738;
+}
+
+footer ul {
+    color: #F1F1EA;
 }
